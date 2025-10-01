@@ -37,13 +37,16 @@
 
 ## Tech Stack
 
-- **Platform**: WordPress (LAMP)
-- **Hosting**: Web Hosting Canada
-- **Key Plugins**:
-  - WooCommerce, Printful
-  - PowerPress / Podlove
-  - Mailchimp, AddThis
-  - MemberPress / WP-Members
+- **Platform**: WordPress (Child theme of Twenty Twenty-Five)  
+- **Hosting**: Web Hosting Canada  
+- **Stack**: LAMP (Linux, Apache, MySQL, PHP)  
+- **Plugins**:
+  - WooCommerce (E-commerce)
+  - Printful (Print-on-demand)
+  - PowerPress / Podlove (Podcast)
+  - Mailchimp (Newsletter)
+  - AddThis (Social sharing)
+  - MemberPress / WP-Members (Access control)
 
 ---
 
