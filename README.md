@@ -49,5 +49,22 @@
 
 ## Theme Dev
 
-- **Custom WordPress theme** (responsive + optimized)
+- **Child Theme** built on the default **WordPress 2025** theme
+- Allows custom styling, layout overrides, and extended functionality
 - **Folder Structure**:
+
+  - /assets/ → Custom CSS, JS, images
+  - /template-parts/ → Modified or additional components
+  - /inc/ → Custom PHP functions
+  - style.css → Child theme metadata & overrides
+  - functions.php → Enqueue scripts, setup child theme
+---
+
+- **Naming Conventions**:
+- `lowercase-hyphenated` filenames (e.g., `page-about.php`)
+- Prefix functions (e.g., `faiththeme_custom_footer()`)
+- Follow WordPress hierarchy and naming for overrides
+
+---
+
+## Status: In Development
