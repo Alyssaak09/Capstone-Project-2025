@@ -37,7 +37,7 @@
 
 ## Tech Stack
 
-- **Platform**: WordPress (Child theme of Twenty Twenty-Five)  
+- **Platform**: WordPress (Child theme of Astra)  
 - **Hosting**: Web Hosting Canada  
 - **Stack**: LAMP (Linux, Apache, MySQL, PHP)  
 - **Plugins**:
@@ -52,7 +52,7 @@
 
 ## Theme Dev
 
-- **Child Theme** built on the default **WordPress 2025** theme
+- **Child Theme** built on the default **WordPress Astra** theme
 - Allows custom styling, layout overrides, and extended functionality
 - **Folder Structure**:
 
