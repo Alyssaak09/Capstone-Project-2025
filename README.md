@@ -22,12 +22,12 @@
 ### Admin
 - Manage all content, products, and design
 - Upload podcasts, control UX
-- (Optional) Schedule posts, view analytics
+- Schedule posts, view analytics
 
 ### User (Visitor)
 - Browse/share content
 - Subscribe via email (no login)
-- (Optional) Comment or join forums
+- Comment 
 
 ### Customer (Shopper)
 - Browse and buy products (guest checkout)
