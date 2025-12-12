@@ -45,8 +45,6 @@
   - Printful (Print-on-demand)
   - PowerPress / Podlove (Podcast)
   - Mailchimp (Newsletter)
-  - AddThis (Social sharing)
-  - MemberPress / WP-Members (Access control)
 
 ---
 
@@ -56,16 +54,12 @@
 - Allows custom styling, layout overrides, and extended functionality
 - **Folder Structure**:
 
-  - /assets/ → Custom CSS, JS, images
-  - /template-parts/ → Modified or additional components
-  - /inc/ → Custom PHP functions
+  - /assets/ → Custom CSS
   - style.css → Child theme metadata & overrides
   - functions.php → Enqueue scripts, setup child theme
 ---
 
 - **Naming Conventions**:
-- `lowercase-hyphenated` filenames (e.g., `page-about.php`)
-- Prefix functions (e.g., `faiththeme_custom_footer()`)
 - Follow WordPress hierarchy and naming for overrides
 
 ---
