@@ -43,8 +43,7 @@
 - **Plugins**:
   - WooCommerce (E-commerce)
   - Printful (Print-on-demand)
-  - PowerPress / Podlove (Podcast)
-  - Mailchimp (Newsletter)
+  - Newsletter (Newsletter)
 
 ---
 
