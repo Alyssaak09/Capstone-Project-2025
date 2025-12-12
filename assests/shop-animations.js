@@ -1,26 +1,34 @@
 jQuery(function($){
-    function animateShopLentorProducts() {
-        $('.wl-product-grid .wl-col').each(function(i){
-            var $this = $(this);
-            $this.css({
-                opacity: 0,
-                transform: 'translateY(20px)',
-            });
-            setTimeout(function(){
-                $this.css({
-                    opacity: 1,
-                    transform: 'translateY(0)',
-                    transition: 'all 0.6s ease'
+
+    function animateProducts() {
+        $('.ht-product').each(function(i){
+            var $item = $(this);
+
+            // Prevent re-animating products
+            if (!$item.hasClass('animated')) {
+                $item.css({
+                    opacity: 0,
+                    transform: 'translateY(20px)'
                 });
-            }, i * 100); // staggered animation
+
+                setTimeout(function(){
+                    $item.css({
+                        opacity: 1,
+                        transform: 'translateY(0)',
+                        transition: 'all 0.6s ease'
+                    });
+                    $item.addClass('animated');
+                }, i * 100); // stagger
+            }
         });
     }
 
-    // Animate products on page load
-    animateShopLentorProducts();
+    // Animate on page load
+    animateProducts();
 
-    // Animate products after ShopLentor AJAX update
-    $(document).on('wl-products-loaded', function(){
-        animateShopLentorProducts();
+    // Animate after ShopLentor AJAX updates
+    $(document).on('woolentor-products-loaded', function(){
+        animateProducts();
     });
 });
+
