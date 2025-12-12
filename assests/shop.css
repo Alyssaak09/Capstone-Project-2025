@@ -1,0 +1,29 @@
+/* ----------------------------------------- */
+
+/* shop.css - hover effects and keyframes only */
+
+/* Keyframes */
+@keyframes wlFadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Image hover effect */
+.wl-product-img-wrapper img {
+    transition: transform 0.3s ease;
+}
+
+.wl-product-grid .wl-col:hover .wl-product-img-wrapper img {
+    transform: scale(1.05) translateY(-3px);
+}
+
+/* Add-to-cart button hover effect */
+.wl-btn-wrapper .wl-button {
+    transition: transform 0.3s ease;
+}
+
+.wl-btn-wrapper .wl-button:hover {
+    transform: translateY(-3px);
+}
