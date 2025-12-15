@@ -44,6 +44,7 @@
   - WooCommerce (E-commerce)
   - Printful (Print-on-demand)
   - Newsletter (Newsletter)
+  - Elementor (Page Builder)
 
 ---
 
