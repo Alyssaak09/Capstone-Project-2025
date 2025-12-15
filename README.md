@@ -45,6 +45,7 @@
   - Printful (Print-on-demand)
   - Newsletter (Newsletter)
   - Elementor (Page Builder)
+  - Stripe (Payment Platform)
 
 ---
 
